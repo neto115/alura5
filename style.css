@@ -1,0 +1,52 @@
+/* Configuração básica da página para centralizar o cartão */
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* O CARTÃO QUE VOCÊ VAI MODIFICAR NO DESAFIO */
+.cartao {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+    /* VALORES DO DESAFIO PARA VOCÊ ALTERAR: */
+    width: 260px;       
+    padding: 15px 25px; 
+}
+
+/* Estilos extras apenas para o cartão ficar bonito */
+.cartao-imagem {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.cartao-titulo {
+    color: #333;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.cartao-descricao {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.cartao-botao {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
